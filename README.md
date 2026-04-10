@@ -1,6 +1,15 @@
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+
+---
+
 # openclaw-aai-gateway-plugin
 
+[![npm version](https://img.shields.io/npm/v/openclaw-aai-gateway-plugin)](https://www.npmjs.com/package/openclaw-aai-gateway-plugin)
+[![license](https://img.shields.io/npm/l/openclaw-aai-gateway-plugin)](./LICENSE)
+
 [OpenClaw](https://openclaw.ai) plugin for [AAI Gateway](https://github.com/gybob/aai-gateway) — import once, use everywhere.
+
+---
 
 ## What It Does
 
@@ -47,4 +56,4 @@ Add to `~/.openclaw/openclaw.json` under `plugins.entries.aai-gateway.config`:
 
 ## License
 
-Apache-2.0
+[Apache-2.0](./LICENSE)
