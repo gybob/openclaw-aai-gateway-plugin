@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bobworktree/bob-cli/refs/heads/main/docs/plugins/schema.json",
+  "id": "aai-gateway",
+  "name": "AAI Gateway",
+  "version": "0.1.0",
+  "description": "Bridges OpenClaw to the AAI Gateway — exposes MCP servers, Skills, and ACP agents as native OpenClaw tools",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "command": {
+        "type": "string",
+        "description": "Custom command to launch aai-gateway. Default: npx -y aai-gateway. Example: \"aai-gateway\" (if installed globally)."
+      }
+    },
+    "additionalProperties": false
+  }
+}

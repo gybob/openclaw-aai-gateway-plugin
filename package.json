@@ -1,0 +1,43 @@
+{
+  "name": "openclaw-aai-gateway-plugin",
+  "version": "0.1.0",
+  "description": "OpenClaw plugin — bridges AAI Gateway tools (MCP servers, Skills, ACP agents) into OpenClaw as native agent tools",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "aai-gateway",
+    "mcp",
+    "agent"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gybob/openclaw-aai-gateway-plugin"
+  },
+  "files": [
+    "dist",
+    "openclaw.plugin.json"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.1.0"
+  },
+  "openclaw": {
+    "extensions": ["./dist/index.js"]
+  }
+}
