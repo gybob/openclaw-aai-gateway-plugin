@@ -24,7 +24,7 @@
 ## インストール
 
 ```bash
-openclaw plugin install openclaw-aai-gateway-plugin
+openclaw plugins install openclaw-aai-gateway-plugin
 ```
 
 以上です。プラグインは自動的に `npx -y aai-gateway` で起動します。
@@ -36,6 +36,7 @@ openclaw plugin install openclaw-aai-gateway-plugin
 - **「すべての AAI アプリを一覧表示」** — インポート済みのアプリを確認
 - **「AAI でブラウザ自動化ツールを検索」** — 新しいツールを発見してインストール
 - **「この MCP サーバーをインポート: ...」** — `mcp:import` で MCP サーバーを追加
+- **「TweetClaw/Xquik MCP をインポートして X/Twitter ワークフローに使う」** - [TweetClaw](https://github.com/Xquik-dev/tweetclaw) と Xquik API key で `https://xquik.com/mcp` に接続し、ツイート検索、ツイート返信検索、フォロワーエクスポート、ユーザー検索、監視、webhook、抽選に使えます。ネイティブ OpenClaw ユーザーは `openclaw plugins install @xquik/tweetclaw` でも `@xquik/tweetclaw` をインストールできます。
 
 ## 設定（オプション）
 

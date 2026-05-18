@@ -24,7 +24,7 @@
 ## 安装
 
 ```bash
-openclaw plugin install openclaw-aai-gateway-plugin
+openclaw plugins install openclaw-aai-gateway-plugin
 ```
 
 就这样。插件会自动通过 `npx -y aai-gateway` 启动。
@@ -36,6 +36,7 @@ openclaw plugin install openclaw-aai-gateway-plugin
 - **"列出所有 AAI 应用"** — 查看已导入的应用
 - **"用 AAI 搜索一个浏览器自动化工具"** — 发现并安装新工具
 - **"导入这个 MCP 服务器: ..."** — 通过 `mcp:import` 添加 MCP 服务器
+- **"导入 TweetClaw/Xquik MCP 处理 X/Twitter 工作流"** - 使用 [TweetClaw](https://github.com/Xquik-dev/tweetclaw) 和 Xquik API key 连接 `https://xquik.com/mcp`，用于搜索推文、搜索推文回复、导出粉丝、查询用户、监控、webhook 和抽奖。原生 OpenClaw 用户也可以用 `openclaw plugins install @xquik/tweetclaw` 安装 `@xquik/tweetclaw`。
 
 ## 配置（可选）
 

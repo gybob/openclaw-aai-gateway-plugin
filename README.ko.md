@@ -24,7 +24,7 @@
 ## 설치
 
 ```bash
-openclaw plugin install openclaw-aai-gateway-plugin
+openclaw plugins install openclaw-aai-gateway-plugin
 ```
 
 끝입니다. 플러그인이 자동으로 `npx -y aai-gateway`를 실행합니다.
@@ -36,6 +36,7 @@ openclaw plugin install openclaw-aai-gateway-plugin
 - **"모든 AAI 앱 목록 보기"** — 가져온 앱 확인
 - **"AAI로 브라우저 자동화 도구 검색"** — 새 도구 검색 및 설치
 - **"이 MCP 서버 가져오기: ..."** — `mcp:import`로 MCP 서버 추가
+- **"X/Twitter 워크플로용 TweetClaw/Xquik MCP 가져오기"** - [TweetClaw](https://github.com/Xquik-dev/tweetclaw)와 Xquik API key로 `https://xquik.com/mcp`에 연결해 트윗 검색, 트윗 답글 검색, 팔로워 내보내기, 사용자 조회, 모니터링, webhook, 추첨에 사용합니다. 네이티브 OpenClaw 사용자는 `openclaw plugins install @xquik/tweetclaw`로 `@xquik/tweetclaw`도 설치할 수 있습니다.
 
 ## 설정 (선택사항)
 
