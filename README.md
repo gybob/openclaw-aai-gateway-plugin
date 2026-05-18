@@ -24,7 +24,7 @@ This plugin bridges **AAI Gateway** into OpenClaw, exposing all gateway-managed 
 ## Install
 
 ```bash
-openclaw plugin install openclaw-aai-gateway-plugin
+openclaw plugins install openclaw-aai-gateway-plugin
 ```
 
 That's it. The plugin spawns `npx -y aai-gateway` automatically.
@@ -36,6 +36,7 @@ Once installed, all AAI Gateway tools are available to your OpenClaw agents. Try
 - **"List all AAI apps"** — see what's imported
 - **"Use AAI to search for a browser automation tool"** — discover and install new tools
 - **"Import this MCP server: ..."** — add an MCP server via `mcp:import`
+- **"Import TweetClaw/Xquik MCP for X/Twitter workflows"** - use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) to connect `https://xquik.com/mcp` with an Xquik API key for search tweets, search tweet replies, follower export, user lookup, monitors, webhooks, and giveaway draws. Native OpenClaw users can also install `@xquik/tweetclaw` with `openclaw plugins install @xquik/tweetclaw`.
 
 ## Configuration (Optional)
 
